@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-Geo-Whitwell-Name
-version:            0.03
+version:            0.04
 abstract:           Steadman Whitwell's "rational geographic nomenclature"
 author:
     - Joe McMahon <mcmahon@cpan.org>
@@ -11,12 +11,13 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Test::Exception:  0
+    Test::More:       0
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
